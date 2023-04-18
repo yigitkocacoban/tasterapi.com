@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+body{
+    margin: 0;
+    background-color: #efeeee;
+    font-family: 'Raleway', sans-serif;
+}
+.main-content-top-bar{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 10vw;
+    background-color: #6666ff;
+}
+.main-content-top-bar a{
+    
+    text-decoration: none;
+}
+.main-content-top-bar-logo{
+    color: #efeeee;
+    font-size: 25px;
+    display:flex;
+}
+.main-content-top-bar-logo img{
+    width: 40px;
+}
+.main-content-top-bar-logo img.whatsapp{
+    width: 40px;
+    
+}
+.main-content-top-bar-logo p{
+    font-size:small;
+}
+.main-content-row{
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+.main-content-blog-box{
+    width: 100vw;
+    display: inline-block;
+    align-items: start;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.main-content-blog-image{
+    margin-right: 40px;
+}
+
+.main-content-blog-image img{
+    width: 100vw;
+    height: 30vh;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.main-content-blog-image img#bio{
+    width: 80vw;
+    height: 60vw;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.main-content-blog-box-read-button{
+    background-color: #6666ff;
+    padding: 1vh 1vw;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.main-content-blog-box-read-button:hover{
+    background-color: #333333;
+    padding: 1vh 1vw;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.main-content-blog-box-text-coll a{
+    color: #efeeee;
+}
+.main-content-blog-box-text-coll a:hover{
+    color: #efeeee;
+}
+.main-content-category-col{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    justify-content: start;
+    
+}
+.main-content-category-heading{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.main-content-category-list a{
+    text-decoration: none;
+    
+
+}
+.main-content-category{
+    background-color: #333333;
+    color: #efeeee;
+    border-radius: 10px;
+    padding: 0.7vw 0.7vw;
+    margin-bottom: 5px;
+}
+
+
+
+.main-content-category:hover{
+    background-color: #6666ff;
+    color: #efeeee;
+
+}
+
+.main-content-category.selected{
+    background-color: #6666ff;
+    
+}
+
+#gallery {
+    width: 100vw;
+    height: 40vw;
+    position: relative;
+}
+#gallery img {
+    width: 100vw;
+    height: 40vw;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
